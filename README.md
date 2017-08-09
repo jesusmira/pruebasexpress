@@ -1,8 +1,8 @@
 # pruebasexpress
 pruebas express
 
-Pruebas de funcionamiento de expres,  instalado con "npm install -g generator-express". Pruebas con less, handlebars y mvc,
-se instalaron. 
+Pruebas de funcionamiento de expres,  instalado con "**_npm install -g generator-express_**". Pruebas con less, handlebars y mvc, se instalaron. 
+
 **nodemon**: para no rearancar el servidor cada vez que hacemos una modificación del codigo.
 
 **less**: se implemento la función para que compile less automaticamente y me cree el archivo css.(Se tendra que instalar less y less-middleware.
