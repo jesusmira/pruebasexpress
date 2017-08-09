@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="{{ pelicula.poster}}" />
+        </div>
+        <div class="col-sm-8">
+            <h2>{{pelicula.title}}</h2>
+            <h3>Año: {{pelicula.year}}</h3>
+            <h3>Director: {{pelicula.director}}</h3>
+            <p><b>Resumen: </b>{{pelicula.synopsis}} </p>
+
+            {{#if pelicula.rented}}
+                <p><b>Estado:</b> Película actualmente alquilada</p>
+                <button type="button" class="btn btn-danger">Devolver Película</button>
+            {{else}}
+                <p><b>Estado:</b> Película Disponible</p>
+                <button type="button" class="btn btn-primary">Alquilar Película</button>
+            {{/if}}
+            <a href="{{ pelicula.id  }}" class="btn btn-warning"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>Editar Película</a>
+            <a href="../../peliculas" class="btn btn-default"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>Volver al listado</a>
+        </div>
+    </div>
+</div>

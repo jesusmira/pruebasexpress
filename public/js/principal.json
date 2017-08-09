@@ -1,0 +1,72 @@
+{   "titulo": "Noticias",
+    "paginas": [
+        {
+            "pag": "index"
+        },
+        {
+            "pag": "actualidad"
+        },
+        {
+            "pag": "cultura"
+        },
+        {
+            "pag": "sociedad"
+        },
+        {
+            "pag": "deporte"
+        }],
+    "datospersonales":[
+            {
+                "descrip": "Empresa",
+                "text": "HanSoloEstrellado.sl"
+            },
+            {
+                "descrip": "Calle",
+                "text": "Cita 33, local Izquierdo"
+            },
+            {
+                "descrip": "Ciudad",
+                "text": "Zaragoza"
+            },
+            {
+                "descrip": "Telefono",
+                "text": "976112233"
+            },
+            {
+                "descrip": "Manejando Handlebars@",
+                "text": "2017"
+            }],
+    "enlaces": [
+            {
+                "text": "Google",
+                "url": "http://www.google.es"
+            },
+            {
+                "text": "W3schools",
+                "url": "https://www.w3schools.com/"
+            },
+            {
+                "text":"Handlebars",
+                "url":"http://handlebarsjs.com/"
+            }],
+    "docu":[
+            {
+                "item":"HTML"
+            },
+            {
+                "item":"CSS"
+            },
+            {
+                "item":"JavaScript"
+            },
+            {
+                "item":"Bootstrap"
+            },
+            {
+                "item":"Handlebars"
+            },
+            {
+                "item":"Jquery"
+            }]
+
+}
